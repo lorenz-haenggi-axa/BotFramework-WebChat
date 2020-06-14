@@ -10,8 +10,6 @@ import AnimationCardContent from './adaptiveCards/Attachment/AnimationCardConten
 import AudioCardContent from './adaptiveCards/Attachment/AudioCardContent';
 import coreRenderWebChat from './renderWebChat';
 import createAdaptiveCardsAttachmentMiddleware from './adaptiveCards/createAdaptiveCardsAttachmentMiddleware';
-import createCognitiveServicesSpeechServicesPonyfillFactory from './createCognitiveServicesSpeechServicesPonyfillFactory';
-import createDirectLineSpeechAdapters from './createDirectLineSpeechAdapters';
 import createStyleSet from './createFullStyleSet';
 import defaultCreateDirectLine from './createDirectLine';
 import defaultCreateDirectLineAppServiceExtension from './createDirectLineAppServiceExtension';
@@ -72,8 +70,8 @@ export default ReactWebChat;
 export {
   Components,
   createAdaptiveCardsAttachmentMiddleware,
-  createCognitiveServicesSpeechServicesPonyfillFactory,
-  createDirectLineSpeechAdapters,
+  //createCognitiveServicesSpeechServicesPonyfillFactory,
+  //createDirectLineSpeechAdapters,
   createStyleSet,
   patchedHooks as hooks,
   renderMarkdown,
@@ -84,10 +82,10 @@ window['WebChat'] = {
   ...window['WebChat'],
   Components,
   createAdaptiveCardsAttachmentMiddleware,
-  createCognitiveServicesSpeechServicesPonyfillFactory,
+  //createCognitiveServicesSpeechServicesPonyfillFactory,
   createDirectLine,
   createDirectLineAppServiceExtension,
-  createDirectLineSpeechAdapters,
+  //createDirectLineSpeechAdapters,
   createStyleSet,
   hooks: patchedHooks,
   ReactWebChat,

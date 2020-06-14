@@ -13,7 +13,6 @@ import ReactWebChat, {
 
 import addVersion from './addVersion';
 import coreRenderWebChat from './renderWebChat';
-import createBrowserWebSpeechPonyfillFactory from './createBrowserWebSpeechPonyfillFactory';
 import defaultCreateDirectLine from './createDirectLine';
 import defaultCreateDirectLineAppServiceExtension from './createDirectLineAppServiceExtension';
 
@@ -44,7 +43,7 @@ export {
   concatMiddleware,
   connectToWebChat,
   Constants,
-  createBrowserWebSpeechPonyfillFactory,
+  //createBrowserWebSpeechPonyfillFactory,
   createStore,
   createStyleSet,
   hooks,
@@ -57,7 +56,7 @@ window['WebChat'] = {
   concatMiddleware,
   connectToWebChat,
   Constants,
-  createBrowserWebSpeechPonyfillFactory,
+  //createBrowserWebSpeechPonyfillFactory,
   createDirectLine,
   createDirectLineAppServiceExtension,
   createStore,
